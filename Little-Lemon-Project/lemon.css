@@ -8,7 +8,7 @@ body{
     background-color: #EDEFEE;
     font-family:monospace;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -64,13 +64,20 @@ section h1{
     border-bottom: 1px solid olivedrab;
 }
 .main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
+.main-section article{
+    font-size: 2rem;
+}
 .middel-section article{
     border-radius: 2rem;
     padding: 1rem;
     box-shadow: 0 4px 8px 0 black;
+    font-size: 1rem;
 }
 article{
     flex: 1;
